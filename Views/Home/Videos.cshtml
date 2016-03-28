@@ -27,8 +27,8 @@
         Use this area to provide additional information.
     </p>
     <ul>
-        <li>@Html.ActionLink("Home", "Index", "Home")</li>
-        <li>@Html.ActionLink("About", "About", "Home")</li>
-        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+        <li><a class="box" href='@Url.Action("Index", "Home")' data-transition="fade" data-direction="reverse"> Home</a></li>
+        <li><a class="box" href='@Url.Action("About", "Home")' data-transition="fade" data-direction="reverse"> About</a></li>
+        <li><a class="box" href='@Url.Action("Contact", "Home")' data-transition="fade" data-direction="reverse"> Contact</a></li>
     </ul>
 </aside>
