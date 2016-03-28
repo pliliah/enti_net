@@ -35,5 +35,33 @@ namespace EntiTrees.Controllers
 
             return View();
         }
+
+        public ActionResult Gallery()
+        {
+            ViewBag.Message = "Gallery page.";
+
+            return View();
+        }
+
+        public ActionResult Growth()
+        {
+            ViewBag.Message = "Growth page.";
+
+            return View();
+        }
+
+        public ActionResult Shop()
+        {
+            ViewBag.Message = "Shop page.";
+
+            return View();
+        }
+
+        public ActionResult ShoppingCart()
+        {
+            ViewBag.Message = "Shop page.";
+
+            return View();
+        }
     }
 }
